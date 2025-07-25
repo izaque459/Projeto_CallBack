@@ -25,6 +25,7 @@ Em C:
 		argumento.
 		
 Em C++:
+
 	1.  Funções lambdaou ponteiros de função podem ser usados
 		como callbacks;
 	2.  Em C++11 introduziu std::funtcion, que é uma classe que 
