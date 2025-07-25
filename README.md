@@ -12,15 +12,15 @@ para lidar com eventos assíncronos, como:
 	
 	1.	Respostas de rede;
 	2. 	Interações com usuário;
-	3.  Término de operações demoradas.
+	3.	Término de operações demoradas.
 	
 	
 ## Descrição
 
 Em C:
-	1.  Ponteiros de função são usados para implementar
+	1.	Ponteiros de função são usados para implementar
 		callbacks;
-	2.  Uma função é definida e seu endereço é passado como
+	2.	Uma função é definida e seu endereço é passado como
 		argumento.
 		
 Em C++:
