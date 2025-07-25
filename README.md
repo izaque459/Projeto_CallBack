@@ -18,6 +18,7 @@ para lidar com eventos assíncronos, como:
 ## Descrição
 
 Em C:
+
 	1.	Ponteiros de função são usados para implementar
 		callbacks;
 	2.	Uma função é definida e seu endereço é passado como
