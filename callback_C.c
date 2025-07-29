@@ -11,7 +11,13 @@ void executar_callback(void (*callback)(int))
 {
 	callback(23);
 }
-//tipo para armazenar funcoa callback
+
+void executar_callback_value(void (*callback)(int),int valor)
+{
+	callback(valor);
+}
+
+//tipo para armazenar funcao
 typedef void (*TipoCallback)(int);
 
 int main()
@@ -19,7 +25,7 @@ int main()
 	TipoCallback callback = funcao_callback;
 	
 	executar_callback(funcao_callback);
-	callback(90);
+	executar_callback_value(callback,90);
 	
 	return 0;
 }
