@@ -11,6 +11,11 @@ void executar_callback(const std::function<void(int)>& callback)
 	callback(23);
 }
 
+void executar_callback_value(const std::function<void(int)>& callback,int valor)
+{
+	callback(valor);
+}
+
 //tipo definido para armazenar funcao
 using TipoCallback =std::function<void(int)>;
 
@@ -26,6 +31,6 @@ int main()
 		std::cout<<"Lambda callback chamado com valor "<<valor<<std::endl;
 	});
 	
-
+	executar_callback_value(callback,80);
 	return 0;
 }
